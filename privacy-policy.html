@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad — Evangelio al Azar</title>
+    <style>
+        :root {
+            --primary: #8b0000;
+            --gold: #d4af37;
+            --bg: #fcfbf7;
+            --card: #ffffff;
+            --text: #2d3748;
+            --muted: #718096;
+            --border: #e2e8f0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #121212;
+                --card: #1e1e1e;
+                --text: #e2e8f0;
+                --muted: #a0aec0;
+                --border: #2d3748;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        header {
+            border-bottom: 2px solid var(--gold);
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: var(--primary);
+            margin: 0 0 8px 0;
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 1.15rem;
+            margin-top: 24px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 4px;
+        }
+        p, li {
+            font-size: 0.95rem;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        code {
+            background: rgba(139, 0, 0, 0.08);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.88em;
+            color: var(--primary);
+            font-family: monospace;
+        }
+        .highlight-box {
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 4px solid var(--gold);
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 0.9rem;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🕊️ Política de Privacidad — Evangelio al Azar</h1>
+            <div class="meta">
+                <strong>Aplicación:</strong> Evangelio al Azar<br>
+                <strong>Paquete:</strong> <code>com.isaacbarnuevo.evangelioalazar</code><br>
+                <strong>Desarrollador:</strong> Isaac Barnuevo<br>
+                <strong>Última actualización:</strong> 9 de octubre de 2026
+            </div>
+        </header>
+
+        <div class="highlight-box">
+            <strong>Resumen de Privacidad:</strong> Evangelio al Azar funciona 100% en tu dispositivo y <strong>NO recopila, NO almacena en servidores externos, NO rastrea ni comparte ningún dato personal</strong>.
+        </div>
+
+        <h2>1. Introducción y Propósito</h2>
+        <p>Esta aplicación nace con el propósito de ayudarte a detenerte, escuchar la Palabra de Dios y dedicar unos minutos a la oración cada día. La privacidad de los usuarios es absoluta y fundamental.</p>
+
+        <h2>2. Recopilación y Tratamiento de Datos</h2>
+        <ul>
+            <li><strong>Sin datos personales:</strong> No solicitamos registro, nombre, teléfono, correo ni acceso a cuentas de usuario.</li>
+            <li><strong>Sin analíticas ni rastreo:</strong> La app no incorpora SDKs publicitarios, herramientas de telemetría de comportamiento ni rastreadores de terceros.</li>
+            <li><strong>Sin venta ni cesión de información:</strong> Ningún dato es transferido ni vendido a terceros bajo ninguna circunstancia.</li>
+        </ul>
+
+        <h2>3. Almacenamiento Local en el Dispositivo</h2>
+        <p>La aplicación utiliza únicamente el almacenamiento local del navegador interno (<code>localStorage</code>) para guardar:</p>
+        <ul>
+            <li>Pasajes bíblicos que el usuario decide marcar como favoritos.</li>
+            <li>Preferencias de visualización: modo oscuro/claro, tamaño de tipografía e idioma elegido.</li>
+        </ul>
+        <p>Esta información reside exclusivamente en la memoria de tu propio dispositivo móvil y nunca se sube a internet.</p>
+
+        <h2>4. Permisos de Android</h2>
+        <p>Para su funcionamiento litúrgico y de oración, la app solicita los siguientes permisos mínimos en Android:</p>
+        <ul>
+            <li><code>WAKE_LOCK</code> y <code>SCHEDULE_EXACT_ALARM</code>: Utilizados para el temporizador de contemplación (3, 5, 10 o 15 minutos), permitiendo mantener la pantalla activa mientras meditas y hacer sonar la campana de aviso al terminar, incluso con la pantalla apagada.</li>
+            <li><code>VIBRATE</code>: Para acompañar suavemente la campana de conclusión de la oración.</li>
+            <li><code>POST_NOTIFICATIONS</code>: Para mostrar la notificación en la pantalla de bloqueo de que el tiempo de oración ha concluido.</li>
+        </ul>
+        <p>Ningún permiso se utiliza para acceder a contactos, archivos personales, fotos, micrófono ni cámara.</p>
+
+        <h2>5. Menores de Edad</h2>
+        <p>La aplicación ofrece contenido bíblico y espiritual apto para todas las edades. Al no recopilar ningún tipo de dato personal, cumple con las regulaciones de protección de la privacidad infantil (COPPA y RGPD).</p>
+
+        <h2>6. Contacto</h2>
+        <p>Si tienes cualquier duda respecto a esta política de privacidad, puedes contactar al desarrollador a través de la dirección de correo facilitada en la ficha de Google Play Store.</p>
+
+        <footer>
+            &copy; 2026 Isaac Barnuevo — Evangelio al Azar. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
